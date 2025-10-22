@@ -25,16 +25,16 @@
 ```
 Разделяем таблиц по функциональной области на разные базы данных.
 ```
-![Vertical Sharding](img\image.png)
+![Vertical Sharding](img/image.png)
 
 #### Горизонтальный шардинг (Horizontal Sharding)
 ```
 Разделяем крупную таблицу Книги на несколько идентичных шардов в разных базах данных.
 ```
-![Horizontal Sharding](img\image-1.png)
+![Horizontal Sharding](img/image-1.png)
 
 #### Блоксхема системы
-![Блоксхема системы](img\image-2.png)
+![Блоксхема системы](img/image-2.png)
 ```
 Режимы работы серверов
 Каждая база данных (UserDB, StoreDB) и каждый шард (Shard 1, Shard 2) будет работать в режиме Active Master + Passive Slave.
